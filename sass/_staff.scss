@@ -5,10 +5,11 @@
 .staff-list {
   margin-top: 50px;
   display: flex;
+  & .staff-item:not(:first-child) {
+    margin-left: 30px;
+  }
 }
-.staff-list .staff-item:not(:first-child) {
-  margin-left: 30px;
-}
+
 .staff-item {
   background: var(--staff-item-bg-color);
   box-shadow: 0px 1px 3px var(--staff-shadow-1-color),
