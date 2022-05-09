@@ -1,0 +1,39 @@
+.hero-list {
+  display: flex;
+}
+.hero-list__item {
+  max-width: 270px;
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
+}
+
+.hero-list__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.hero-list__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--hero-text-color);
+
+  margin-top: 10px;
+}
+.hero-list__signs {
+  display: inline-flex;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+
+  justify-content: center;
+  align-items: center;
+}
+.hero-list__icons {
+  fill: var(--c-btn-text-color);
+}

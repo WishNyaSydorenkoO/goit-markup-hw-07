@@ -1,0 +1,39 @@
+.staff {
+  background: var(--staff-section-bg-color);
+}
+
+.staff-list {
+  margin-top: 50px;
+  display: flex;
+}
+.staff-list .staff-item:not(:first-child) {
+  margin-left: 30px;
+}
+.staff-item {
+  background: var(--staff-item-bg-color);
+  box-shadow: 0px 1px 3px var(--staff-shadow-1-color),
+    0px 1px 1px var(--staff-shadow-2-color),
+    0px 2px 1px var(--staff-shadow-3-color);
+  border-radius: 0px 0px 4px 4px;
+}
+.agent-file {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.staff-agent {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+}
+.staff-position {
+  font-size: 16px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+  color: var(--staff-position-color);
+
+  margin-top: 10px;
+}
